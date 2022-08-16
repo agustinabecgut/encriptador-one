@@ -1,7 +1,10 @@
 body{
     background: #fceba6;
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;    
+}
+
+.contenedor{
     width: 940px;
     margin: 0 auto;
 }
@@ -78,7 +81,6 @@ button:hover{
     width: 25%;
     height: 70%;
     float: right;
-    position: relative;
 }
 
 #margarita{
@@ -137,3 +139,55 @@ footer p{
     text-align: center;
     padding-top: 0.5em;
 }
+
+@media screen and (max-width: 768px) {
+    .contenedor{
+        width: auto;
+    }
+
+    .izquierda{
+        width: 100%;
+        height: auto;
+    }
+
+    input{
+        font-size: larger;
+    }
+
+    .botonera{
+        padding: 2em 3em;
+        margin: 0 auto;
+    }
+
+    .botonera p{
+        font-size: larger;
+        margin-left: 2em;
+    }
+    
+    button{
+        margin-left: 2.2em;
+        padding: 2em 4em;
+        font-size: larger;
+    }
+
+    .derecha{
+        width: 100%;
+        float: none;
+    }
+
+    .contenido-derecha img{
+        width: 20%;
+    }
+
+    .contenido-derecha textarea{
+        margin: 0 auto;
+        margin-bottom: 1em;
+        display: flex;
+    }
+
+    footer{
+        padding: 1em;
+    }
+
+    
+ }

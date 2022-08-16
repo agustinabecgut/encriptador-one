@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
@@ -11,24 +12,24 @@
     <title>Encriptador de texto</title>
 </head>
 <body>
-    <header>
+    <div class="contenedor">
+        <header>
             <img class="logo" src="Vector.png" alt="Logo de Alura">
             <section class="texto-logo">
                 <p>Alura - Oracle Next Education</p>
                 <h1>Encriptador de mensajes</h1>  
                 <p>por Agustina Becerra</p>
             </section>            
-    </header>
-    <main>
-       <div class="izquierda">
-            <input id="input-texto" type="text" onfocus="this.value=''" pattern="[a-z]" value="Ingrese su texto aquí...">
-            <section class="botonera">
-                <p>&#9888; Sólo minúsculas y sin acentos</p>
-                <button id="encriptar" onclick="encriptar()">Encriptar</button>
-                <button id="desencriptar" onclick="desencriptar()">Desencriptar</button>
-            </section>      
-        </div> 
-       </div>
+        </header>
+        <main>
+            <div class="izquierda">
+                <input id="input-texto" type="text" onfocus="this.value=''" pattern="[a-z]" value="Ingrese su texto aquí...">
+                <section class="botonera">
+                    <p>&#9888; Sólo minúsculas y sin acentos</p>
+                    <button id="encriptar" onclick="encriptar()">Encriptar</button>
+                    <button id="desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </section>      
+            </div>         
         <section class="derecha">
             <div class="contenido-derecha">
                 <h1 id="margarita"><img src="margarita.png" alt="Margarita de abdev."></h1>
@@ -41,6 +42,7 @@
     <footer>
         <p>Encriptador desarrollado por Agustina Becerra</p>
         <p>Buenos Aires, Argentina - 2022</p>
-    </footer>        
+    </footer>   
+</div>
 </body>
 </html>
