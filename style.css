@@ -1,0 +1,139 @@
+body{
+    background: #fceba6;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo{
+    margin: 2em;
+}
+
+.texto-logo{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2em;
+    color: #43254a;
+}
+
+.texto-logo p{
+    font-size: large;
+}
+
+.texto-logo h1{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.izquierda{
+    width: 70%;
+    height: auto;
+    display: inline-block;
+}
+
+input{
+    background: #fceba6;
+    width: 80%;
+    margin: 2em 3em;
+    padding: 6em 2em;
+    font-size: large;
+    color: #f7b054;
+    border: none;
+    outline: none;
+}
+
+.botonera{
+    padding: 2em 3em;
+}
+
+.botonera p{
+    font-size: small;
+    color: #bc4a48;
+    padding: 0 0 0.5em 0.5em;
+}
+
+button{
+    background-color: #fceba6;
+    border: 3px solid #f7b054;
+    border-radius: 20px;
+    margin: 0 1em;
+    padding: 1em 4em;
+    font-size: large;
+    color: #43254a;
+    text-align: center;
+    transition: background 0.5s;
+}
+
+button:hover{
+    background: #f7b054;
+    cursor: pointer;
+}
+
+.derecha{
+    background: #AA98A9;
+    border: 3px solid #43254a;
+    border-radius: 20px;
+    margin: 0 1em 0;
+    width: 25%;
+    height: 70%;
+    float: right;
+    position: relative;
+}
+
+#margarita{
+    text-align: center;
+    margin: 5em 0;
+}
+
+.contenido-derecha img{
+    width: 40%;
+}
+
+.contenido-derecha h3{
+    font-size: larger;
+    font-weight: bold;
+    color: #43254a;
+    padding: 0 2em; 
+    text-align: center;
+}
+
+.contenido-derecha textarea{
+    font-size: large;
+    height: auto;
+    background: #AA98A9;
+    color: #43254a;
+    padding: 2em 0.5em;
+    margin: 1em 1em;
+    text-align: center;
+    border: none;
+    outline: none;
+    overflow: hidden;
+}
+
+.contenido-derecha > button{
+    background: #AA98A9;
+    border: 3px solid #43254a;
+    color: #bc4a48;
+    margin: 12em 1em 1em 1em;
+    transition: backgorund color 0.5s;
+    display: none;
+}
+
+.contenido-derecha > button:hover{
+    background: #43254a;
+    color: #fceba6;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+}
+
+footer p{
+    font-size: small;
+    font-weight: bold;
+    color: #f7b054;
+    text-align: center;
+    padding-top: 0.5em;
+}

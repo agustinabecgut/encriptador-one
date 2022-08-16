@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>    
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+            <img class="logo" src="Vector.png" alt="Logo de Alura">
+            <section class="texto-logo">
+                <p>Alura - Oracle Next Education</p>
+                <h1>Encriptador de mensajes</h1>  
+                <p>por Agustina Becerra</p>
+            </section>            
+    </header>
+    <main>
+       <div class="izquierda">
+            <input id="input-texto" type="text" onfocus="this.value=''" pattern="[a-z]" value="Ingrese su texto aquí...">
+            <section class="botonera">
+                <p>&#9888; Sólo minúsculas y sin acentos</p>
+                <button id="encriptar" onclick="encriptar()">Encriptar</button>
+                <button id="desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </section>      
+        </div> 
+       </div>
+        <section class="derecha">
+            <div class="contenido-derecha">
+                <h1 id="margarita"><img src="../../../ABdev/margarita.png" alt="Margarita de abdev."></h1>
+                <h3 id="sin-mensaje">Ningún mensaje fue encontrado</h3>
+                <textarea id="resultado">Ingrese el texto que desea encriptar o desencriptar</textarea>
+                <button id="copiar" onclick="copy()">Copiar</button>
+            </div>
+        </section>     
+    </main>
+    <footer>
+        <p>Encriptador desarrollado por Agustina Becerra</p>
+        <p>Buenos Aires, Argentina - 2022</p>
+    </footer>        
+</body>
+</html>
