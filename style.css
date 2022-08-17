@@ -152,26 +152,94 @@ footer p{
 
     input{
         font-size: larger;
+        margin: 0 1%;
+        padding: 10% 0;
     }
 
     .botonera{
-        padding: 2em 3em;
+        display: block;
+        width: 100%;
+        padding: 0.50em 0.50em;
         margin: 0 auto;
     }
 
     .botonera p{
-        font-size: larger;
-        margin-left: 2em;
+        margin-left: 2%;
     }
     
     button{
-        margin-left: 2.2em;
-        padding: 2em 4em;
+        margin-top: 1%;
+        margin-left: 3%;
+        padding: 2% 10%;
         font-size: larger;
     }
 
     .derecha{
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .contenido-derecha img{
+        width: 20%;
+    }
+
+    .contenido-derecha textarea{
+        margin: 0 auto;
+        margin-bottom: 1em;
+        display: flex;
+    }
+
+    .contenido-derecha > button{
+        margin: 1em auto 1em auto;
+        display: none;
+    }
+
+    footer{
+        padding: 1em 0;
+    }
+
+    
+ }
+
+ @media screen and (max-width: 460px) {
+    .texto-logo{
+        margin-left: 2%;
+    }
+
+    .contenedor{
+        width: auto;
+    }
+
+    .izquierda{
         width: 100%;
+        height: auto;
+    }
+
+    input{
+        font-size: larger;
+        padding: 10% 0;
+        margin: 0 auto;
+    }
+
+    .botonera{
+        width: 100%;
+    }
+
+    .botonera p{
+        font-size: larger;
+        margin-left: 2%;
+    }
+    
+    button{
+        margin-top: 1%;
+        margin-left: 5%;
+        padding: 2% 6%;
+        font-size: larger;
+    }
+
+    .derecha{
+        width: 90%;
         float: none;
     }
 
@@ -185,8 +253,13 @@ footer p{
         display: flex;
     }
 
+    .contenido-derecha > button{
+        margin: 1em auto 1em auto;
+        display: none;
+    }
+
     footer{
-        padding: 1em;
+        padding: 1em 0;
     }
 
     
